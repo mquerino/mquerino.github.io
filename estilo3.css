@@ -1,0 +1,72 @@
+body{
+	font-family: helvetica,sans-serif;
+	background: #ffffa0;
+}
+h1{
+	font-family: verdana,times new roman;
+	font-size: 20px;
+  }
+  img{
+  	display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+p{
+	font-family: helvetica,sans-serif;
+}
+#box{
+	display: block;
+	width: 750px;
+	height: 1080px;
+	/*background: #ff6600;*/
+}
+#header{
+	display: block;
+	height: 180px;
+	padding: 10px;
+}
+#formacao{
+	display: block;
+	height: 300px;
+}
+#exp{
+	display: block;
+	height: 400;
+}
+#msg{
+	display: block;
+	height: 80px;
+}
+a:link,a:visited{
+	color:#ff6600;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+a{
+	text-decoration: none;
+	color: red;
+	font-size: 15px;
+ }
+fieldset{
+  display: block;
+  border-color: black;
+}
+label , input[type=submit], input[type=text],textarea {
+  display: block;
+}
+input[type=submit]{
+  background: #333333;
+  color: #ffffee;
+  cursor:pointer;
+  padding: 10px 20px;
+  border: 0;
+}
+input[type=submit]:hover{
+  background: #ff6600;
+}
+textarea{
+  width: 300px;
+  height: 80px;
+}
