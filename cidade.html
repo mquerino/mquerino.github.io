@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>cidade</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type='text/javascript' src='//code.jquery.com/jquery-2.1.0.js'></script>
+    </head>
+    <body>
+        <select>
+            <option value="1">Cidade</option>
+            <option value="tubarao.php">Tubarão</option>
+            <option value="laguna.php">Laguna</option>
+            <option value="kpiva.php">Kpiva</option>
+        </select>
+        <input type="button" value="Escolha a cidade" onclick="redirecionar()"/>
+        <script type='text/javascript'>
+            var url;
+            $("select").on("change", function () {
+                url = this.value;
+            });
+
+            function redirecionar() {
+                if (!url) {
+                    alert("Você deve escolher um valor.");
+                } else {
+                    window.location = url;
+                }
+            }
+        </script>
+        <P>
+    <a href="index.html">HOME</a>
+    </body>
+</html>
+
