@@ -1,0 +1,64 @@
+#body p{
+    font-family: times new roman, contantia, sans-serif;
+}
+#wrap{
+    display:block;
+    background: #ececec;
+    width: 960px;
+    margin: auto;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+a:link, a:visited{
+    color: #ff6600;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#header{
+    display: block;
+    margin: auto;
+    text-align: center;
+
+}
+.nav{
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#content {
+    display: block;
+    float: left;
+    width: 630px;
+}
+#content li{
+    list-style-type: none;
+}
+#secao {
+    display: block;
+    text-align: center;
+}
+#artigo{
+    display: block;
+    text-align: center;
+}
+#sidebar{
+    display: block;
+    text-align: center;
+    float: right;
+    width: 330px;
+}
+#anside li{
+    list-style-type: none;
+}
+#footheader{
+    display: block;
+    clear: both;
+}
